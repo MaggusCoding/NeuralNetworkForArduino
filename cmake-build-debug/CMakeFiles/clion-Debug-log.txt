@@ -1,0 +1,4 @@
+C:\Users\mseet\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\mseet\CLionProjects\NeuralNetworkForArduino -B C:\Users\mseet\CLionProjects\NeuralNetworkForArduino\cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/mseet/CLionProjects/NeuralNetworkForArduino/cmake-build-debug
