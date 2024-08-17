@@ -49,9 +49,9 @@ int main() {
     shuffle_data(train_data);
 
     NeuralNetwork nn;
-    nn.add_layer(std::make_unique<DenseLayer>(784, 128, Activation::ReLU));
-    nn.add_layer(std::make_unique<DenseLayer>(128, 64, Activation::ReLU));
-    nn.add_layer(std::make_unique<DenseLayer>(64, 10, Activation::Softmax));
+    nn.add_layer(std::make_unique<DenseLayer>(784, 30, Activation::ReLU));
+    nn.add_layer(std::make_unique<DenseLayer>(30, 25, Activation::ReLU));
+    nn.add_layer(std::make_unique<DenseLayer>(25, 10, Activation::Softmax));
 
     int epochs = 10;
     double learning_rate = 0.001;  // Reduced learning rate
